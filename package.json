@@ -1,0 +1,23 @@
+{
+  "name": "learncss",
+  "version": "1.0.0",
+  "description": "Notours project landing page",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "nodesass": "^0.0.2-security"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^4.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "author": "Mwibutsa Floribert",
+  "license": "MIT"
+}
